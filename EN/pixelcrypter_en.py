@@ -38,7 +38,7 @@ if process == "encrypt":
               pyAesCrypt.encryptStream(girisD, cikisD, sifre, 64*1024)
               print("File Successfully Encrypt Through PixelCrypt")
      except ValueError:
-             print("An Error Occurred, Most Likely Decrypt Key Wrong.")
+             print("An Error Occurred.")
  
 
         #######################################
